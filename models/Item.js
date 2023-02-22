@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+mongoose.set('strictQuery', false);
 
 // Create Schema 
 const ItemSchema = new Schema({
